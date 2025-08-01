@@ -42,6 +42,15 @@
         };
     };
 
+    macros {
+        mission_control: mission_control {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "MISSION_CONTROL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,11 +66,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans    &trans      &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans    &kp LG(UP)  &trans     &trans  &trans
+&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp MB1  &kp UP      &mkp MB2   &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN    &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans    &trans      &trans     &trans  &trans
             >;
         };
 
