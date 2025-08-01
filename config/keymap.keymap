@@ -76,11 +76,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans           &trans             &trans         &trans      &trans                                 &trans            &trans                &trans                 &trans           &trans            &trans
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH       &kp DOLLAR  &kp PERCENT                            &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &trans
-&trans  &kp N1           &kp N2             &kp N3         &kp N4      &kp N5       &trans     &trans         &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACE  &kp COLON         &trans
-&trans  &kp N6           &kp N7             &kp N8         &kp N9      &kp N0       &kp CARET  &kp BACKSLASH  &kp SLASH         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COMMA        &kp PERIOD        &trans
-&trans  &kp PLUS         &kp MINUS          &kp SEMICOLON  &trans      &trans       &trans     &kp ASTERISK   &kp EQUAL         &none                 &none                  &kp TILDE        &kp UNDERSCORE    &trans
+&trans  &trans           &trans             &trans     &trans      &trans                                 &trans            &trans                &trans                 &trans            &trans             &trans
+&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                            &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp N1           &kp N2             &kp N3     &kp N4      &kp N5       &trans     &trans         &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE         &kp COLON          &trans
+&trans  &kp N6           &kp N7             &kp N8     &kp N9      &kp N0       &kp CARET  &kp BACKSLASH  &kp QUESTION      &kp QUESTION          &kp LESS_THAN          &kp GREATER_THAN  &kp QUESTION       &trans
+&trans  &kp PLUS         &kp MINUS          &kp SLASH  &trans      &trans       &trans     &kp ASTERISK   &kp EQUAL         &none                 &none                  &kp TILDE         &kp UNDERSCORE     &trans
             >;
         };
 
